@@ -1,3 +1,5 @@
+package algorithm;
+
 import java.util.Scanner;
 
 
@@ -6,7 +8,7 @@ import java.util.Scanner;
 public class IntQueTester {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        IntQueue s = new IntQueue(64);
+        IntQueue s = new IntQueue(4);
 
         while(true) {
             System.out.println();
@@ -43,9 +45,15 @@ public class IntQueTester {
                     } catch (IntQueue.EmptyIntQueueException e) {
                         System.out.println("큐가 비어 있습니다");
                     }
+
+                case 4:
+                    s.dump();
+                    break;
             }
 
 
         }
     }
 }
+
+

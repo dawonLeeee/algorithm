@@ -1,3 +1,4 @@
+package algorithm;
 
 public class IntQueue {
     private int[] que;            // 큐용 배열
@@ -101,5 +102,17 @@ public class IntQueue {
                 System.out.print(que[(i + front) % capacity] + " ");
             System.out.println();
         }
+    }
+
+    public int search(int x) throws EmptyIntQueueException{
+        try {
+            for(int i = 0; i < num; i++){
+                if(que[i] == x)
+                    return i;
+            }
+        }catch (EmptyIntQueueException e) {
+            System.out.println("큐가 비어 있습니다");
+        }
+        return -1;
     }
 }
