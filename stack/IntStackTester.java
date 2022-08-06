@@ -1,7 +1,6 @@
+package algorithm.stack;
+
 import java.util.Scanner;
-
-
-        import java.util.Scanner;
 
 class IntStackTester {
     public static void main(String[] args) {

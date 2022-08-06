@@ -1,9 +1,6 @@
-package algorithm;
+package algorithm.que;
 
 import java.util.Scanner;
-
-
-        import java.util.Scanner;
 
 public class IntQueTester {
     public static void main(String[] args) {

@@ -1,3 +1,4 @@
+package algorithm.stack;
 
 public class IntStack {
     private int[] stk;           // 스택용 배열

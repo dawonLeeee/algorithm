@@ -1,21 +1,13 @@
-package algorithm;
+package algorithm.sort;
 
 import java.util.Scanner;
 
-public class NoFactorial {
-
-
+public class Factorial {
     static int factorial(int n){
-        int result = 1;
-        if(n == 0)
-            return 0;
-        else {
-            for (int i = n; i > 0; i--)
-                result *= i;
-            return result;
-        }
-
-
+        if(n > 0)
+            return n * factorial(n-1);
+        else
+            return 1;
     }
 
     public static void main(String[] args) {
