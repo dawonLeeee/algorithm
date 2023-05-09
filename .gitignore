@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Skip to content
 Search or jump to…
 Pull requests
@@ -180,3 +181,40 @@ Training
 Blog
 About
 Fiesta/.gitignore at main · SNSFiestaTeam/Fiesta
+=======
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.idea
+*.iml
+
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+
+
+
+>>>>>>> parent of bb62129 (learn sort)

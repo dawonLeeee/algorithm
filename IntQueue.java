@@ -1,4 +1,4 @@
-package algorithm.que;
+package algorithm;
 
 public class IntQueue {
     private int[] que;            // 큐용 배열

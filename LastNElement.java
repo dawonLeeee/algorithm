@@ -1,4 +1,4 @@
-package algorithm.stack;
+package algorithm;
 
 import java.util.Scanner;
 
